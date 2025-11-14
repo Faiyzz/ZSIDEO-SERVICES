@@ -1,9 +1,10 @@
-import Image from "next/image";
+import SoftwareHouseHero from "./components/Hero";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <div>
-      
-    </div>
+    <main>
+      <SoftwareHouseHero company="ZSIDEO" />
+      {/* ...rest of page */}
+    </main>
   );
 }
